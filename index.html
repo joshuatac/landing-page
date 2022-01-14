@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap Css File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body class="bg-img">
+      <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.jpg" alt="" width="40px" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav main-menu m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Buy
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">BTC</a></li>
+                                    <li><a class="dropdown-item" href="#">ETH</a></li>
+                                    <li><a class="dropdown-item" href="#">USDT</a></li>
+                                    <li><a class="dropdown-item" href="#">XRP</a></li>
+                                    <li><a class="dropdown-item" href="#">DOGE</a></li>
+                                    <li><a class="dropdown-item" href="#">LTC</a></li>
+                                </ul>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sell
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li class="bordered"><a class="dropdown-item" href="#">BTC</a></li>
+                                    <li><a class="dropdown-item" href="#">ETH</a></li>
+                                    <li><a class="dropdown-item" href="#">USDT</a></li>
+                                    <li><a class="dropdown-item" href="#">XRP</a></li>
+                                    <li><a class="dropdown-item" href="#">DOGE</a></li>
+                                    <li><a class="dropdown-item" href="#">LTC</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex useractions">
+                        <div class="form">
+                            <form action="">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option class="selected" selected>English</option>
+                                    <option value="1">Hindi</option>
+                                    <option value="2">Bangla</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="drop-down">
+                            <button class="dropbtn"><i class="fa fa-user"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">Login</a>
+
+                                <a href="#">Register</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Hero Section and Offers -->
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="exchange col-lg-6 col-md-6">
+                <h1>
+                    Exchange your cryptocurrencies
+                </h1>
+
+                <p class="text-white">LocalCoins is a p2p crypto exchange marketplace where people can trade crypto
+                    directly with each other.</p>
+
+                <div class="d-flex actionBtn">
+                    <button>Login</button>
+                    <button>Register</button>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="myWrapper">
+                    <div class="heroBg">
+                        <div class="form">
+                            <h5 class="mt-2">Find Your Offers</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12">
+                                    <form action="">
+                                        <select class="myform select w-100" name="type" required="">
+                                            <option value="" class="transparent">Select Buy or Sell</option>
+                                            <option value="buy">Buy</option>
+                                            <option value="sell">Sell</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <form action="">
+                                        <select class="myform select w-100"  required="">
+                                            <option value="" class="transparent">Select Crypto Currency</option>
+                                            <option value="BTC">Bitcoin</option>
+                                            <option value="ETH">Ethereum</option>
+                                            <option value="USDT">Tether</option>
+                                            <option value="XRP">XRP</option>
+                                            <option value="DOGE">Dogecoin</option>
+                                            <option value="LTC">Litecoin</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12">
+                                    <form action="">
+                                        <select class="myform select w-100"  required="">
+                                            <option value="" class="transparent">Select Payment Method</option>
+                                            <option value="payeer" data-id="1">Payeer</option>
+                                            <option value="perfect-money" data-id="2">Perfect Money</option>
+                                            <option value="bank-wire" data-id="3">Bank Wire</option>
+                                            <option value="paypal" data-id="4">PayPal</option>
+                                            <option value="payoneer" data-id="5">Payoneer</option>
+                                            <option value="paytm" data-id="6">PayTM</option>
+                                            <option value="western-union" data-id="7">Western Union</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <form action="">
+                                        <select class="myform select w-100" required="">
+                                            <option value="" class="transparent">Choose Option</option>
+                                            <option value="GBP">GBP</option>
+                                            <option value="EUR">EUR</option>
+                                            <option value="JPY">JPY</option>
+                                            <option value="BDT">BDT</option>
+                                            <option value="USD">USD</option>
+                                            <option value="NGN">NGN</option>
+                                            <option value="INR">INR</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 col-sm-12 mt-3">
+                                    <form action="">
+                                       <input type="text" class="myForm form-control mt-3 mb-3" placeholder="Prefereed Amount (optional)">
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 col-sm-12 mt-4">
+                                    <button class="btn myBtn form-control">Find Offers</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+  <!--Overview Section -->
+<div class="container-fluid overviewSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 overview-item">
+                <div class="cardOverview text-center">
+                    <div class="icon">
+                        <i class="fa fa-headset"></i>
+                    </div>
+                    <div class="overviewContent">
+                        <h6>24/7 Support</h6>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="col-lg-3 col-sm-6 overview-item">
+                <div class="cardOverview text-center">
+                    <div class="icon">
+                        <i class="fa fa-user-shield"></i>
+                    </div>
+                    <div class="overviewContent">
+                        <h6>100% Secured</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 overview-item">
+                <div class="cardOverview text-center">
+                    <div class="icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="overviewContent">
+                        <h6>10M Happy Users</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6 overview-item">
+                <div class="cardOverview text-center">
+                    <div class="icon">
+                        <i class="fa fa-award"></i>
+                    </div>
+                    <div class="overviewContent">
+                        <h6>Best Currency Exchange Platform</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  -->
+<section class="pt-120 pb-120 bg_img bg-opacity-10">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-7 text-white text-center">
+            <div class="container">
+            <h1>Sell Crypto Currency
+              </h1>
+              <p>  With a proven track record and a mature approach to the industry, we provide a reliable selling platform for cryptocurrency.</p>
+        </div>
+    </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+
+
+<div class="tabList">
+
+    <div class="row container">
+        <div class="col-lg-12 mt-5 mb-5">
+            <ul class="nav nav-tabs customStyle" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">BTC</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">ETH</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">USDT</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">XRP</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">DOGE</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">LTC</button>
+                  </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <table class="table table-striped">
+                    <thead class="table-dark">
+                      <tr>
+                        <th scope="col">BUYER</th>
+                        <th scope="col">PAYMENT METHOD</th>
+                        <th scope="col">RATE</th>
+                        <th scope="col">LIMITS</th>
+                        <th scope="col">ACTION</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="lightTable">
+                        <td>Mr. Josebek</td>
+                        <td>Bitcoin</td>
+                        <td>38139.08 EUR/BTC</td>
+                        <td>10.00 - 1000,000,000 EUR</td>
+                        <td><button>Buy</button></td>
+                      </tr>
+                    </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">two</div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Three</div>
+      </div>
+    </div>
+</div>
+</section>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
